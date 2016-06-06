@@ -7,11 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "seeding_tests"
   spec.version       = SeedingTests::VERSION
   spec.authors       = ["Alexander Larrazabal Zapatero"]
-  spec.email         = ["alexander.larrazabal@crisalix.com"]
+  spec.email         = ["clausrybnic@openmailbox.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Helper for rspec tests in RoR"
+  spec.description   = "Use seed data to simplify your rspec tests and keep seeds updated"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
